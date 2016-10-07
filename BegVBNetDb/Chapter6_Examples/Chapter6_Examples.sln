@@ -1,0 +1,85 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandExampleSql", "CommandExampleSql\CommandExampleSql.vbproj", "{7841D9F8-5BC9-43B2-BFBD-E72739747BD4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandExampleScalar", "CommandExampleScalar\CommandExampleScalar.vbproj", "{87FED288-DC4B-4787-9614-6D992F487279}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandExampleReader", "CommandExampleReader\CommandExampleReader.vbproj", "{90EB5F54-0A99-40F0-A237-AADB24FB2391}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandExampleNonQuery", "CommandExampleNonQuery\CommandExampleNonQuery.vbproj", "{F83B6404-DD40-4BD0-9FFE-2553E9D2AD39}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandExampleCreate", "CommandExampleCreate\CommandExampleCreate.vbproj", "{843623E9-A1F7-4576-9812-88614C1FB128}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandExampleCreateDb", "CommandExampleCreateDb\CommandExampleCreateDb.vbproj", "{2610E964-088E-4F46-97A5-D0AEF38EF1DB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandExampleParameters", "CommandExampleParameters\CommandExampleParameters.vbproj", "{A102191A-6324-4BD4-AD6F-A35D03B689A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandOleDbQuery", "CommandOleDbQuery\CommandOleDbQuery.vbproj", "{05F8B122-8C66-41DE-8DAB-864F869EE465}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommandOdbcExample", "CommandOdbcExample\CommandOdbcExample.vbproj", "{9BC25E60-C6FF-4DCF-937E-F4E9354F98C4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7841D9F8-5BC9-43B2-BFBD-E72739747BD4}.Debug.ActiveCfg = Debug|.NET
+		{7841D9F8-5BC9-43B2-BFBD-E72739747BD4}.Debug.Build.0 = Debug|.NET
+		{7841D9F8-5BC9-43B2-BFBD-E72739747BD4}.Release.ActiveCfg = Release|.NET
+		{7841D9F8-5BC9-43B2-BFBD-E72739747BD4}.Release.Build.0 = Release|.NET
+		{87FED288-DC4B-4787-9614-6D992F487279}.Debug.ActiveCfg = Debug|.NET
+		{87FED288-DC4B-4787-9614-6D992F487279}.Debug.Build.0 = Debug|.NET
+		{87FED288-DC4B-4787-9614-6D992F487279}.Release.ActiveCfg = Release|.NET
+		{87FED288-DC4B-4787-9614-6D992F487279}.Release.Build.0 = Release|.NET
+		{90EB5F54-0A99-40F0-A237-AADB24FB2391}.Debug.ActiveCfg = Debug|.NET
+		{90EB5F54-0A99-40F0-A237-AADB24FB2391}.Debug.Build.0 = Debug|.NET
+		{90EB5F54-0A99-40F0-A237-AADB24FB2391}.Release.ActiveCfg = Release|.NET
+		{90EB5F54-0A99-40F0-A237-AADB24FB2391}.Release.Build.0 = Release|.NET
+		{F83B6404-DD40-4BD0-9FFE-2553E9D2AD39}.Debug.ActiveCfg = Debug|.NET
+		{F83B6404-DD40-4BD0-9FFE-2553E9D2AD39}.Debug.Build.0 = Debug|.NET
+		{F83B6404-DD40-4BD0-9FFE-2553E9D2AD39}.Release.ActiveCfg = Release|.NET
+		{F83B6404-DD40-4BD0-9FFE-2553E9D2AD39}.Release.Build.0 = Release|.NET
+		{843623E9-A1F7-4576-9812-88614C1FB128}.Debug.ActiveCfg = Debug|.NET
+		{843623E9-A1F7-4576-9812-88614C1FB128}.Debug.Build.0 = Debug|.NET
+		{843623E9-A1F7-4576-9812-88614C1FB128}.Release.ActiveCfg = Release|.NET
+		{843623E9-A1F7-4576-9812-88614C1FB128}.Release.Build.0 = Release|.NET
+		{2610E964-088E-4F46-97A5-D0AEF38EF1DB}.Debug.ActiveCfg = Debug|.NET
+		{2610E964-088E-4F46-97A5-D0AEF38EF1DB}.Debug.Build.0 = Debug|.NET
+		{2610E964-088E-4F46-97A5-D0AEF38EF1DB}.Release.ActiveCfg = Release|.NET
+		{2610E964-088E-4F46-97A5-D0AEF38EF1DB}.Release.Build.0 = Release|.NET
+		{A102191A-6324-4BD4-AD6F-A35D03B689A4}.Debug.ActiveCfg = Debug|.NET
+		{A102191A-6324-4BD4-AD6F-A35D03B689A4}.Debug.Build.0 = Debug|.NET
+		{A102191A-6324-4BD4-AD6F-A35D03B689A4}.Release.ActiveCfg = Release|.NET
+		{A102191A-6324-4BD4-AD6F-A35D03B689A4}.Release.Build.0 = Release|.NET
+		{05F8B122-8C66-41DE-8DAB-864F869EE465}.Debug.ActiveCfg = Debug|.NET
+		{05F8B122-8C66-41DE-8DAB-864F869EE465}.Debug.Build.0 = Debug|.NET
+		{05F8B122-8C66-41DE-8DAB-864F869EE465}.Release.ActiveCfg = Release|.NET
+		{05F8B122-8C66-41DE-8DAB-864F869EE465}.Release.Build.0 = Release|.NET
+		{9BC25E60-C6FF-4DCF-937E-F4E9354F98C4}.Debug.ActiveCfg = Debug|.NET
+		{9BC25E60-C6FF-4DCF-937E-F4E9354F98C4}.Debug.Build.0 = Debug|.NET
+		{9BC25E60-C6FF-4DCF-937E-F4E9354F98C4}.Release.ActiveCfg = Release|.NET
+		{9BC25E60-C6FF-4DCF-937E-F4E9354F98C4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

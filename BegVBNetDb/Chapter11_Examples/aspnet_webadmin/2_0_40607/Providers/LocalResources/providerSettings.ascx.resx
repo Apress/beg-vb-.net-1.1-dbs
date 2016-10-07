@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="AccessDatabase" type="System.String">
+    <value>Access database</value>
+  </data>                           
+  <data name="AccessExplanation" type="System.String">
+    <value>  
+         Information will be stored in a Microsoft&amp;reg; Access database.
+         Access is commonly used for personal Web sites or for small business applications.  
+    </value>
+  </data>                           
+  <data name="DatabaseName" type="System.String">
+    <value>Database name: </value>
+  </data>  
+  <data name="Description" type="System.String">
+    <value>Description: </value>
+  </data>  
+  <data name="DBNameInvalid" type="System.String">
+    <value>Database name is invalid</value>
+  </data>  
+  <data name="DBNameRequired" type="System.String">
+    <value>Database name is required</value>
+  </data>  
+  <data name="FileName" type="System.String">
+    <value>File name: </value>
+  </data>                  
+  <data name="FriendlyName" type="System.String">
+    <value>Friendly name: </value>
+  </data>                  
+  <data name="FriendlyNameRequired" type="System.String">
+    <value>Friendly name is required</value>
+  </data>                  
+  <data name="LoginName" type="System.String">
+    <value>Login name: </value>
+  </data>                  
+  <data name="LoginPassword" type="System.String">
+    <value>Login password: </value>
+  </data>                  
+  <data name="MixedExplanation" type="System.String">
+    <value>Mixed (SQL Server authentication mode)</value>
+  </data>                  
+  <data name="PleaseCorrect" type="System.String">
+    <value>Please correct the errors below.</value>
+  </data>                  
+  <data name="Save" type="System.String">
+    <value>Save</value>
+  </data>                           
+  <data name="ServerName" type="System.String">
+    <value>Server name: </value>
+  </data>
+  <data name="ServerNameRequired" type="System.String">
+    <value>Server name is required</value>
+  </data>
+  <data name="SQLServerDatabase" type="System.String">
+    <value>SQL Server database</value>
+  </data>                           
+  <data name="SQLServerExplanation" type="System.String">
+    <value>
+        Information will be stored in a Microsoft&amp;reg; SQL Server database.
+        SQL Server is commonly used for large business and enterprise applications
+        that require scalability and high availability.
+    </value>
+  </data>
+  <data name="Test" type="System.String">
+    <value>Test</value>
+  </data>                           
+  <data name="TestConnection" type="System.String">
+    <value>Test Connection</value>
+  </data>                           
+  <data name="Instructions" type="System.String">
+    <value>Use this page to specify the database to use for your provider.</value>
+  </data>                           
+  <data name="DatabaseType" type="System.String">
+    <value>Database Type</value>
+  </data>                           
+  <data name="SQLServerConnectionInfo" type="System.String">
+    <value>SQL Server Connection Information</value>
+  </data>                           
+</root>

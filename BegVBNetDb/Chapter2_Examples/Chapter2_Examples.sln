@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Employees", "Employees\Employees.vbproj", "{02021A8B-ADF7-4F40-825B-4904CE65D2EE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataFormWizard", "DataFormWizard\DataFormWizard.vbproj", "{DA54C27E-13CB-462E-BFEE-D0266861F400}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02021A8B-ADF7-4F40-825B-4904CE65D2EE}.Debug.ActiveCfg = Debug|.NET
+		{02021A8B-ADF7-4F40-825B-4904CE65D2EE}.Debug.Build.0 = Debug|.NET
+		{02021A8B-ADF7-4F40-825B-4904CE65D2EE}.Release.ActiveCfg = Release|.NET
+		{02021A8B-ADF7-4F40-825B-4904CE65D2EE}.Release.Build.0 = Release|.NET
+		{DA54C27E-13CB-462E-BFEE-D0266861F400}.Debug.ActiveCfg = Debug|.NET
+		{DA54C27E-13CB-462E-BFEE-D0266861F400}.Debug.Build.0 = Debug|.NET
+		{DA54C27E-13CB-462E-BFEE-D0266861F400}.Release.ActiveCfg = Release|.NET
+		{DA54C27E-13CB-462E-BFEE-D0266861F400}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

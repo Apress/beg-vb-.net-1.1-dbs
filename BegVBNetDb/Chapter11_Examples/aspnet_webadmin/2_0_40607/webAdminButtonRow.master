@@ -1,0 +1,40 @@
+<%@ Master masterPageFile="WebAdmin.master" className="WebAdminButtonRowMasterPage" %>
+<%@ MasterType virtualPath="WebAdmin.master" %>
+
+<script runat="server" language="cs">
+public void Page_Load() {
+    yellowCornerElement.Text = "<img src=\"" + Request.ApplicationPath + "/images/yellowCORNER.gif\" width=\"34\" alt=\"\" border=\"0\"/>";
+
+}
+
+public void SetNavigationBarSelectedIndex(int sel) {
+    Master.SetNavigationBarSelectedIndex(sel);
+}
+
+public void SetNavigationBarVisibility(bool visible) {
+    Master.SetNavigationBarVisibility(visible);
+}
+
+</script>
+
+<asp:content runat="server" contentplaceholderid="titleBar">
+    <asp:contentplaceholder runat="server" id="titleBar"/>
+</asp:content>
+<asp:content runat="server" contentplaceholderid="content">
+    <asp:contentplaceholder runat="server" id="content"/>
+</asp:content>
+
+<asp:content runat="server" contentplaceholderid="buttonRow">
+<table align="right" valign="bottom" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+        <%--<img src=\"" + Request.ApplicationPath + "/images/yellowCORNER.gif\" width=\"34\" alt=\"\" border=\"0\"/>--%>
+        <asp:literal runat="server" id="yellowCornerElement"/></td>
+        <td class="buttonCell" align="left" valign="middle">
+            <asp:literal runat="server" id="arrowElement" />            
+            &nbsp;&nbsp;
+            <asp:contentPlaceHolder runat="server" id="buttons"/>
+        </td>
+    </tr>
+</table>
+</asp:content>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <data name="CannotLoadCustomDataTypeError" type="System.String">
+        <value>Custom data type '{0}' cannot be loaded.  Please make sure it is defined and can be referenced in the application.</value>
+    </data>
+    <data name="Instructions" type="System.String">
+        <value>
+            Use this page to edit an existing profile property.&lt;br/&gt;
+            You can make properties part of a group (such as a billing address group).&lt;br/&gt;
+            You can change data type of each property, either a native .NET type or a custom type (class).&lt;br/&gt;
+            For custom types, provide the namespace and class name.
+        </value>
+    </data>
+    <data name="PropertyNameHasBeenDefinedError" type="System.String">
+        <value>Property name has already been defined as an existing property or group</value>
+    </data>
+    <data name="Title" type="System.String">
+        <value>Edit Profile Properties</value>
+    </data>
+</root>

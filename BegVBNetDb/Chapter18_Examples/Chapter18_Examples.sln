@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdoNetExceptions", "AdoNetExceptions\AdoNetExceptions.vbproj", "{FBF5150C-1218-4A87-B514-81E7ED95854B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FBF5150C-1218-4A87-B514-81E7ED95854B}.Debug.ActiveCfg = Debug|.NET
+		{FBF5150C-1218-4A87-B514-81E7ED95854B}.Debug.Build.0 = Debug|.NET
+		{FBF5150C-1218-4A87-B514-81E7ED95854B}.Release.ActiveCfg = Release|.NET
+		{FBF5150C-1218-4A87-B514-81E7ED95854B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

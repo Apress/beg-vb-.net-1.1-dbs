@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ComplexBinding", "..\Chapter9_Examples\ComplexBinding\ComplexBinding.vbproj", "{2C95B536-0CFD-4B95-8A9A-A84AF0702D96}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WriteXML", "..\Chapter8_Examples\WriteXML\WriteXML.vbproj", "{6629E85B-1652-455C-9D3E-26E2DDFBA4D3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataGridUpdate", "..\Chapter9_Examples\DataGridUpdate\DataGridUpdate.vbproj", "{C7E13E46-BC7C-40AA-9735-A9C009ADFE13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C95B536-0CFD-4B95-8A9A-A84AF0702D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C95B536-0CFD-4B95-8A9A-A84AF0702D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C95B536-0CFD-4B95-8A9A-A84AF0702D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C95B536-0CFD-4B95-8A9A-A84AF0702D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6629E85B-1652-455C-9D3E-26E2DDFBA4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6629E85B-1652-455C-9D3E-26E2DDFBA4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6629E85B-1652-455C-9D3E-26E2DDFBA4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6629E85B-1652-455C-9D3E-26E2DDFBA4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E13E46-BC7C-40AA-9735-A9C009ADFE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E13E46-BC7C-40AA-9735-A9C009ADFE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E13E46-BC7C-40AA-9735-A9C009ADFE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E13E46-BC7C-40AA-9735-A9C009ADFE13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

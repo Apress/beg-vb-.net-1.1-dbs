@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="Chapter22_Examples">
+</Property><Property Name="Solution File" Value="C:\BegVBNetDb\Chapter22_Examples\Chapter22_Examples.sln">
+</Property><Property Name="Date" Value="04 December 2004">
+</Property><Property Name="Time" Value="17:31:38">
+</Property><Property Name="LogNumber" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="WriteXML" Source="..\Chapter8_Examples\WriteXML\WriteXML.vbproj" Description="Project file successfully backed up as C:\BegVBNetDb\Chapter22_Examples\Backup1\WriteXML.vbproj">
+</Event><Event ErrorLevel="0" Project="WriteXML" Source="..\Chapter8_Examples\WriteXML\AssemblyInfo.vb" Description="File successfully backed up as C:\BegVBNetDb\Chapter22_Examples\Backup1\WriteXML.vbproj">
+</Event><Event ErrorLevel="0" Project="WriteXML" Source="..\Chapter8_Examples\WriteXML\WriteXML.vb" Description="File successfully backed up as C:\BegVBNetDb\Chapter22_Examples\Backup1\WriteXML.vbproj">
+</Event><Event ErrorLevel="0" Project="WriteXML" Source="..\Chapter8_Examples\WriteXML\WriteXML.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WriteXML" Source="..\Chapter8_Examples\WriteXML\WriteXML.vbproj" Description="Converted">
+</Event></UpgradeLog>

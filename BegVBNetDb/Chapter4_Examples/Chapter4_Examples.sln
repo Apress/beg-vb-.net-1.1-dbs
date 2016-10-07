@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SqlServerProvider", "SqlServerProvider\SqlServerProvider.vbproj", "{7219BFB5-A3AF-4185-BC72-F5B523132459}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OleDbProvider", "OleDbProvider\OleDbProvider.vbproj", "{B73219B1-43BC-429C-B2B7-AF37F181CF2E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OdbcProvider", "OdbcProvider\OdbcProvider.vbproj", "{B70FCDB6-78A7-4E6D-902B-399C601E5AEA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7219BFB5-A3AF-4185-BC72-F5B523132459}.Debug.ActiveCfg = Debug|.NET
+		{7219BFB5-A3AF-4185-BC72-F5B523132459}.Debug.Build.0 = Debug|.NET
+		{7219BFB5-A3AF-4185-BC72-F5B523132459}.Release.ActiveCfg = Release|.NET
+		{7219BFB5-A3AF-4185-BC72-F5B523132459}.Release.Build.0 = Release|.NET
+		{B73219B1-43BC-429C-B2B7-AF37F181CF2E}.Debug.ActiveCfg = Debug|.NET
+		{B73219B1-43BC-429C-B2B7-AF37F181CF2E}.Debug.Build.0 = Debug|.NET
+		{B73219B1-43BC-429C-B2B7-AF37F181CF2E}.Release.ActiveCfg = Release|.NET
+		{B73219B1-43BC-429C-B2B7-AF37F181CF2E}.Release.Build.0 = Release|.NET
+		{B70FCDB6-78A7-4E6D-902B-399C601E5AEA}.Debug.ActiveCfg = Debug|.NET
+		{B70FCDB6-78A7-4E6D-902B-399C601E5AEA}.Debug.Build.0 = Debug|.NET
+		{B70FCDB6-78A7-4E6D-902B-399C601E5AEA}.Release.ActiveCfg = Release|.NET
+		{B70FCDB6-78A7-4E6D-902B-399C601E5AEA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

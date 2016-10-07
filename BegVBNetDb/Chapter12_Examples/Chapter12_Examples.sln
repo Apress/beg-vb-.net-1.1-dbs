@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StatementProcessor", "StatementProcessor\StatementProcessor.vbproj", "{8F8B3479-1DAA-42E5-9C5E-4EE2483D813F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8F8B3479-1DAA-42E5-9C5E-4EE2483D813F}.Debug.ActiveCfg = Debug|.NET
+		{8F8B3479-1DAA-42E5-9C5E-4EE2483D813F}.Debug.Build.0 = Debug|.NET
+		{8F8B3479-1DAA-42E5-9C5E-4EE2483D813F}.Release.ActiveCfg = Release|.NET
+		{8F8B3479-1DAA-42E5-9C5E-4EE2483D813F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

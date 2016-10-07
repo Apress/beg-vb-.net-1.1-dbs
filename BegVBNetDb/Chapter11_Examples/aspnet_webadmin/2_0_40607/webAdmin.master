@@ -1,0 +1,79 @@
+<%@ Master className="WebAdminMasterPage" %>
+<%@ Register TagPrefix="uc1" TagName="navigationBar" Src="~/navigationBar.ascx" %>
+<%@ Import Namespace="System.Web.Administration" %>
+
+<script runat="server" language="cs">
+public void Page_Init(object s, EventArgs e) {
+    signOut.Visible = Request.IsAuthenticated && Context.User.Identity is FormsIdentity;
+    ((WebAdminPage)Page).NavigationBar = navigationBar;
+}
+
+public void Page_Load() {
+    // CONSIDER: Use server controls instead of literals and app relative paths.
+    string reqAppPath = Request.ApplicationPath;
+    linkElement.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"" + reqAppPath + "/webAdminStyles.css\"/>";
+    //logoElement.Text = "<img src=\"" + reqAppPath + "/" + "images/ASPdotNET_logo.jpg\" width=\"198\" height=\"46\" alt=\"ASP.NET Logo\" border=\"0\">";
+//    questionMarkElement.Text = "<img src=\"" + reqAppPath + "/" + "images/questionMark.jpg\" width=\"24\" height=\"24\" alt=\"\" border=\"0\" style=\"position:relative; top:5;\">";
+}
+
+// Used (sparingly) by login page, redirects, etc.  If nav bar is used for redirection, setSelectedIndex is not needed.
+public void SetNavigationBarSelectedIndex(int sel) {
+    navigationBar.SetSelectedIndex(sel);
+}
+
+public void SignOut(object s, EventArgs e) {
+    FormsAuthentication.SignOut();
+    Response.Redirect("~/login.aspx");
+}
+
+public void SetNavigationBarVisibility(bool visible) {
+    navigationBar.Visible = visible;
+
+}
+</script>
+
+<head>
+    <title>ASP.Net Web Application Administration</title>
+    <asp:literal runat="server" id="linkElement"/>
+</head>
+<body ms_positioning="GridLayout" leftmargin="0" topmargin="0">
+<form id="Form1" method="post" runat="server">
+<table align="left" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<tr><td valign="top">
+<uc1:navigationBar id="navigationBar" runat="server"/>
+</td></tr>            
+    
+       
+            
+       
+        <tr>
+            <td colspan="2" height="" class="bodyText" valign="top">
+                <asp:contentPlaceHolder runat="server" id="content"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" class="buttonRow" colspan="2" height="35" valign="bottom">
+                <table align="right" width="" height="" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td>
+                            <asp:contentPlaceHolder runat="server" id="buttonRow"/>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="bottomRow" colspan="2" height="31" valign="top">
+                
+<asp:linkButton runat="server" id="signOut" forecolor="white" text="Log Off" font-size=".7em" onClick="SignOut"/>
+                 
+                
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+
+<!-- <asp:contentPlaceHolder runat="server" id="titleBar"/> -->
+

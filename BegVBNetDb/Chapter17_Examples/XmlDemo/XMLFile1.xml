@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books xmlns="http://tempuri.org/XMLFile1.xsd">
+   <book>
+      <title>Title1</title>
+      <author>
+         <name>Author1</name>
+         <age>34</age>
+      </author>
+   </book>
+   <book>
+      <title>Title2</title>
+      <author>
+         <name>Author2</name>
+         <age>24</age>
+      </author>
+   </book>
+   <book>
+      <title>Title3</title>
+      <author>
+         <name>Author3</name>
+         <age>53</age>
+      </author>
+   </book>
+</books>
